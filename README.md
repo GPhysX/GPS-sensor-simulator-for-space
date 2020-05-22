@@ -7,6 +7,8 @@ For the whole simulation time, this simulator provides position estimate by solv
 It may seem a bit confusing to do some work to generate an output giving the exact information you have to provide as input… but it’s all ok. This script is the first step to build more complex simulators dealing with sensor fusion or noise correction. For example, you can add a Kalman filter to the current output values to estimate its capabilities to improve position estimates. You can also use Kalman filter for sensor fusion to merge position estimate from different navigation sensor.
 
 
+What you have to do:
+
 •	Provide trajectory data in “ECI_state_mysat.txt” (data format is suggested in the first rows of the file),
 
 •	Set GPS noise in the Simulink model “gps_model.slx”,
