@@ -9,7 +9,11 @@ It may seem a bit confusing to do some work to generate an output giving the exa
 
 
 What you have to do:
+
 •	Provide trajectory data in “ECI_state_mysat.txt” (data format is suggested in the first rows of the file),
+
 •	Set GPS noise in the Simulink model “gps_model.slx”,
+
 •	Launch “gps_initialization.m”,
-•	Get results.
+
+•	Enjoy results.
