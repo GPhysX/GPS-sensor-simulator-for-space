@@ -1,3 +1,5 @@
 delete this comment and write true orbit data of your satellite in ECI using the following format:
 
 for each row: time, xECI, yECI, zECI
+
+provide time in seconds and position in km
